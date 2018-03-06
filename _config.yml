@@ -13,6 +13,5 @@ plugins:
 paginate:			5
 version:			1.0.0
 
-author:
-  name:				'qige'
-  url:       		https://github.com/qigeloveit/qigeloveit.github.io
+github:
+  repo: https://github.com/qigeloveit/qigeloveit.github.io
