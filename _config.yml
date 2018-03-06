@@ -1,18 +1,17 @@
-permalink:			/:year/:month/:day/:title.html
-markdown:			kramdown
+title:             qige's blog
+email:             qigeloveit@163.com
+description:		"生命的意义, 就在于生活的过程"
+author:            qige
+baseurl:           "/"
+url:               "https://qigeloveit.github.io"
 
-title:				qige
-tagline:			'A Technology blog'
-description:		'Technology blog of qige'
-url:				https://github.com/qigeloveit/qigeloveit.github.io
-baseurl:			/
+# Social Profiles
+github_username:   qigeloveit
 
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
 plugins:
-  - jekyll-gist
-
-paginate:			5
-version:			1.0.0
-
-author:
-  name:				'qige'
-  url:       		https://github.com/qigeloveit/qigeloveit.github.io
+  - jekyll-feed
+  - jekyll-paginate
